@@ -30,3 +30,17 @@ Also, remember that with GitBash ctrl v does NOT work!!!! You have to use the ri
 
 Some good ways to check if the repo has downloaded, do "ls" and "cd" into other folders if you need to.
 
+
+
+
+## add and send data to github
+
+```
+git add .
+git commit -m "A brief detail of what is being sent to github"
+git push
+```
+
+
+
+
