@@ -67,10 +67,16 @@ git push
 
 
 
-
 ****IF I HAVE A UPDATES WERE REJECTED BECAUSE THE REMOTE CONTAINS WORK THAT YOU DO NOT AHVE LOCALLY!!****
+
+
+
 
 git pull
 git push
 
 
+vimm
+
+escape
+:QW
