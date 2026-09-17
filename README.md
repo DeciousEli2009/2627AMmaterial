@@ -68,9 +68,14 @@ git push
 
 
 
-****IF I HAVE A UPDATES WERE REJECTED BECAUSE THE REMOTE CONTAINS WORK THAT YOU DO NOT AHVE LOCALLY!!****
+****IF I HAVE A UPDATES WERE REJECTED BECAUSE THE REMOTE CONTAINS WORK THAT YOU DO NOT HAV LOCALLY!!****
 
 git pull
 git push
 
+
+If you get a merge conflict error
+
+1: Cry
+2: Ask Lagenour or Bander for help.
 
