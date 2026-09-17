@@ -28,8 +28,30 @@ Also, remember that with GitBash ctrl v does NOT work!!!! You have to use the ri
 
 
 
+git clone <link>
+git add .
+git command -m "what did you do"
+git push
+
+
+
+git fetch=admin pull
+git pull=code pull
+
+
+git status
+
 Some good ways to check if the repo has downloaded, do "ls" and "cd" into other folders if you need to.
 
+
+
+
+
+
+What are branches?
+
+Think of branches like a timeline. After branching enough and you can fit one (new feature, new bugfix)
+Once added into the timeline it becomes a part.
 
 
 
@@ -40,6 +62,9 @@ git add .
 git commit -m "A brief detail of what is being sent to github"
 git push
 ```
+
+
+
 
 
 
