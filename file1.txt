@@ -1,0 +1,5 @@
+ == Insert mode or able to add data to the file
+ esc -- nav mode or command mode or general or escape out of whatever mdoe i ma in
+ :w save your file
+ :wq == save and quit
+ :q! == quit without saving0

@@ -67,15 +67,29 @@ git push
 
 
 
+<<<<<<< HEAD
 
 ****IF I HAVE A UPDATES WERE REJECTED BECAUSE THE REMOTE CONTAINS WORK THAT YOU DO NOT HAV LOCALLY!!****
+=======
+****IF I HAVE A UPDATES WERE REJECTED BECAUSE THE REMOTE CONTAINS WORK THAT YOU DO NOT AHVE LOCALLY!!****
+>>>>>>> be86999579a53d2068f78fd756eb4ca1cae95c24
+
+
+
 
 git pull
 git push
 
 
+<<<<<<< HEAD
 If you get a merge conflict error
 
 1: Cry
 2: Ask Lagenour or Bander for help.
 
+=======
+vimm
+
+escape
+:QW
+>>>>>>> be86999579a53d2068f78fd756eb4ca1cae95c24

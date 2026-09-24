@@ -1,0 +1,80 @@
+Class notes for vim
+
+general commands
+- vim <filename> = creates a new file or opens a file already in vim
+- When you eneter Vim, you will be in command mode
+	- :w = saves file and allows you to continue working
+	- :wq = save and exit the file
+	- :q! force quit a file
+	- u = undo the last change
+	- CTRL + r = undo an undp (redo)
+	-:x = save the file
+	- colorscheme <colorscheme>: Change the color output on your file
+	- i = Takes you into insert mode (typing mode) where your cursor is
+		- Will be indicated by a -- Insert -- alert -- alert in the bottom left of your screen.	
+
+
+	Movement Commands In Nav Mode
+- j = move down
+- k = move up
+- l = move right
+- h = move left
+- gg = moves to the top of the page/file
+- G = moves to the bottom of the page/file
+- w = move one word forwards at a time
+- b = move backwards 
+- e = moves forward ot the end of a wor
+- E(caps) e+skips punctuation
+- W(caps) = w+skips punctuation
+- B(caps) = b+skips punctuation
+- $ = skips to the end of a line
+- #K = number of lines jump (4K jumps 4 lines)
+- #gg = Jump to a specific line (29gg takes you to line 29)
+- :# (jump to a specific line (:29 takes you to line 29)
+
+		Pattern/Search commands
+WARNING!!!! These are case sensitive  (INCLUDE CAPS!!!!!!!!!!!)
+- /<patern> = search for a pattern
+- n = move forwards pattern search
+- N(caps) move backwards in pattern search
+- ? = search for a pattern from the bottom
+
+
+
+Advanced Commands
+yy = copy entire line your cursor is on
+p = paste the entire line BELOW current line
+P(caps) paste the entire line ABOVE current line
+
+
+$ = go to the end of a line
+#yy (10yy copies lines 22-32 20yy copies lines 22-42) = multiline copy
+dd = single delete
+#dd = line delete (73d will delete 73 lines below)
+:#,$d = delete selected lines 
+	:start#,end#command
+
+	$ = wildcard
+
+I(caps) = insert mode at the beginning of the line
+a = insert mode to the right of the cursor
+A(cursor) = insert mode to the end of the line
+o = insert mode creates a new line below the cursor
+O(caps) insert mode creates a new line above the cursor
+x = delete character to the right
+X(caps) = delete character to the left
+
+
+	Different Modes in Vimm
+
+Normal/Navigation/Command Mode = The mode where you an use :command prompts
+Insert mode = the mode that actually lets you type/editing text
+Replace mode = search and replace characters (hit r)
+View/Visual mode = lets you select text (hit v)
+
+
+tab over multiple lines
+	1. enter visual mode
+	2. highlight lines to tab with arrow keys
+	3. use inequality operators aka < > 
+
