@@ -1,0 +1,27 @@
+CamelCase
+under_score_case
+
+
+
+
+py file.py
+runs or "pythons" the file
+
+When you run py, 
+COmpile
+exe
+running exe
+
+
+Primitive Data Types
+	Binary
+	Boolean
+	Integers
+	floats
+	characters
+
+
+Vim is just the text editor. Python is what is actually running the code.
+See HelloWorld.py for some additional notes from this day and likely future days. It involves
+
+
