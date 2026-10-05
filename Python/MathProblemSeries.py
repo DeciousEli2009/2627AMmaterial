@@ -29,7 +29,8 @@ p10 = (15+5)^2+((13+3)+5^2)
 
 
 '''
-
+# freebie given by Mr Bander. Figure out how to make this work when you get home 
+#print(f"1. 2+(10*(10-2)**2-2 == {2+(10*(10-2)**2)-2}") 
 
 
 #These are all my variabless. I labeled them OneTwoThree instead of 123 because it will confuse me whenever i read it if theres numbers in my varibles.
