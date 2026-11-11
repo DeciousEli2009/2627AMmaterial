@@ -65,13 +65,6 @@ print(f'''Now...Time for the madlibs story!!
 
 
 
-'''
-
-
-
-
-
-'''
 
 
 
