@@ -12,8 +12,8 @@ amount = int(amount) #makes the amount an int so i can multiply by it
 
 
 for tiles in range(amount): #this is like a row. Way i thought of it was like a series of bathroom tiles 
-    hashtag = "#" * (tiles + 1) #
-    space = " " * (amount - 1 - tiles) #
+    hashtag = "#" * (tiles + 1) # tiles for the row
+    space = " " * (amount - 1 - tiles) # this makes it to where the elft gets smaller instead of bigger making it the pyramid
     print(space + hashtag + "  " + hashtag) #prints everything
 #Sources:
 '''
